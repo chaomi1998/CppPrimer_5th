@@ -1,2 +1,10 @@
-# CppPrimer_5th
- C++ Primer Practice questions Archive
+# 第12章 动态内存：
+
+## 练习 12.1：
+
+
+
+## 练习 12.2：
+
+[StrBlob](ex12_02.h)
+
