@@ -14,7 +14,7 @@
 
 [Code](ex1_02.cpp)
 
-```bash
+```Bash
 $ echo $?
 255
 ```
