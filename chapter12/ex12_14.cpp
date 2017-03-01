@@ -1,3 +1,7 @@
+#include <memory>
+
+using std::shard_ptr;
+
 struct destination;
 struct connection;
 

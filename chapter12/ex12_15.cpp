@@ -1,3 +1,7 @@
+#include <memory>
+
+using std::shared_ptr;
+
 struct destination;
 struct connection;
 
