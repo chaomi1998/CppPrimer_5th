@@ -124,7 +124,8 @@ StrBlobPtr StrBlob::begin() {
 }
 
 StrBlobPtr StrBlob::end() {
-    return StrBlobPtr(*this, data->size());
+    auto ret = StrBlobPtr(*this, data->size());
+    return ret;
 }
 
 #endif
