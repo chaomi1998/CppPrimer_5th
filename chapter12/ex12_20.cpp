@@ -15,12 +15,12 @@ int main(int argc, char *argv[])
     ifstream input(argv[1]);
     StrBlob str;
     string line;
-    while (getline(cin, line)) {
+    while (getline(input, line)) {
         str.push_back(line);
     }
 
-    for (auto i = str.begin(); i != str.end(); i.incr()) {  //can't run with "!="
-        cout << i.deref();
+    for (auto i = str.begin(); i.deref() != str.back(); i.incr()) {  
+        cout << i.deref() << "\n";
     }
     cout << endl;
     return 0;
